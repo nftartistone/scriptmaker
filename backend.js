@@ -18,7 +18,7 @@ generateButton.addEventListener("click", function() {
 
 async function generateScript(input) {
     // replace the API_KEY placeholder with your own API key
-    const apiKey = "YOUR_API_KEY";
+    const apiKey = "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";
     // make the request
     try {
         const response = await fetch(https://api.openai.com/v1/engines/davinci/completions, {
